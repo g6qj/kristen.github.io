@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Broadway');
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	color: white;
+  	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	text-align: center;
+	font-size: 30pt; 
+	background-image: linear-gradient(#AFEEEE, white);
+}
+
+h2{
+	font-family: 'Tangerine', sans-serif;
+	text-align: left;
+	font-size: 60pt;
+	padding: 20px;
+}
+
+h3{
+	font-family: 'Tangerine', sans-serif;
+	text-align: right;
+	font-size: 60pt;
+	padding: 10px;
+}
+
+body{
+	width: 100%;
+	font-family: 'Merienda', sans-serif;
+	background-image: linear-gradient(#AFEEEE, #9932CC);
+}
+
+
+
+.Dust{
+	position: absolute;
+  right: 150px;
+  top: 140px;
+  z-index: 1;
+  opacity: 0.15;
+    filter: alpha(opacity=50);
+}
+
+.Cricket{
+	position: absolute;
+  left: 150px;
+  top: 140px;
+  z-index: 1;
+  opacity: 0.15;
+    filter: alpha(opacity=50);
+}
+
+.Quote{
+	font-family: 'Tangerine', sans-serif;
+	text-align: right;
+	font-size: 40pt;
+	padding: 10px;
+}
+
+.AboutMe {
+	font-family: 'Merienda', sans-serif;
+	text-align: center;
+	font-size: 30pt;
+}
+
+.Items{
+	font-family: 'Merienda', sans-serif;
+	text-align: left;
+	font-size: 30pt;
+	opacity: 0.5;
+}
+
+.container{
+	width: 80%;
+	background-image: linear-gradient(#9932CC, #AFEEEE);
+	margin: auto;
+	padding: 20px;
+}
+
+p{
+	font-family: 'Tangerine', sans-serif;
+	text-align: left-center;
+	font-size: 40pt;
+	padding: 20px;
+}
+
+
+
+ul{
+	padding: 0;
+	overflow: hidden;
+	background-image: linear-gradient(#AFEEEE, white);
+}
+
+
+ul li{
+	color: white;
+  	text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px darkblue;
+	text-align: center;
+	float: left;
+	list-style-type: none;
+	margin: 0 100px;
+	font-size:  2em;
+}
